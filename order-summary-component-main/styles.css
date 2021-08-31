@@ -1,0 +1,145 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: #e0e8ff;
+}
+
+.card-container {
+  width: 90%;
+  max-width: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-container .img-holder-1 {
+  width: 100%;
+}
+
+.card-container img {
+  width: 100%;
+}
+
+.card-container .content-container {
+  padding: 30px 50px 50px 50px;
+}
+
+.card-container .content-container h2 {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+.card-container .content-container p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f2f56;
+  text-align: center;
+}
+
+.card-container .content-container .plan-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #f5f7ff;
+  border-radius: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px 20px 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card-container .content-container .plan-container .img-holder-2 {
+  margin-right: 10px;
+}
+
+.card-container .content-container .plan-container .plan-info-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-container .content-container .plan-container .plan-info-holder h2 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: .95rem;
+  font-weight: 700;
+}
+
+.card-container .content-container .plan-container .plan-info-holder span {
+  font-size: .95rem;
+  font-weight: 500;
+}
+
+.card-container .content-container .plan-container .content-button-holder {
+  margin-left: auto;
+}
+
+.card-container .content-container .plan-container .content-button-holder a {
+  color: #3829e0;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card-container .content-container .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-container .content-container .button-container .b1 {
+  text-decoration: none;
+  background-color: #3829e0;
+  color: #f5f7ff;
+  border-radius: 15px;
+  padding: 20px;
+  font-weight: 700;
+  -webkit-box-shadow: 0 17px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 17px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-container .content-container .button-container .b1:hover {
+  background-color: #7280a7;
+}
+
+.card-container .content-container .button-container .b2 {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.card-container .content-container .button-container .b2:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=styles.css.map */
